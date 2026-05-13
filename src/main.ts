@@ -13,5 +13,11 @@ async function bootstrap() {
 
   await app.listen(envs.port);
   logger.log(`Gateway running on port ${envs.port}`);
+  logger.log(
+    `Products microservices running on host ${envs.productsMicroserviceHost}`,
+  );
+  logger.log(
+    `Products microservices running on port ${envs.productsMicroservicePort}`,
+  );
 }
 void bootstrap();
