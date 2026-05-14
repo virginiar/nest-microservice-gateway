@@ -44,10 +44,10 @@ En este repositorio se trabajan los siguientes aspectos de Nest con microservici
 
 ## Librerías utilizadas
 
-Para las validaciones se utilizan:
+Para la gestión de microservicios:
 
 ```bash
-$ npm install class-validator class-transformer
+$ npm i --save @nestjs/microservices
 ```
 
 Para la gestión de variables de entorno:
@@ -62,8 +62,8 @@ Para los esquemas de validación:
 $ npm install joi
 ```
 
-Para la gestión de microservicios:
+Para las validaciones se utilizan:
 
 ```bash
-$ npm i --save @nestjs/microservices
+$ npm install class-validator class-transformer
 ```
