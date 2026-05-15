@@ -29,5 +29,11 @@ async function bootstrap() {
   logger.log(
     `Products microservices running on port ${envs.productsMicroservicePort}`,
   );
+  logger.log(
+    `Orders microservices running on host ${envs.ordersMicroserviceHost}`,
+  );
+  logger.log(
+    `Orders microservices running on port ${envs.ordersMicroservicePort}`,
+  );
 }
 void bootstrap();
