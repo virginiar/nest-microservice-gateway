@@ -41,6 +41,8 @@ En este repositorio se trabajan los siguientes aspectos de Nest con microservici
   - Independientes
   - Globales
 - Trabajar con observables y promesas en los mensajes
+- Implementando endpoints para Order
+- Validación de orden con su detalle de orden
 
 ## Librerías utilizadas
 
