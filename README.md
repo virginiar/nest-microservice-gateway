@@ -24,9 +24,15 @@ $ npm install
 
 4. Crear un archivo ```.env``` basado en ```.env.template```.
 
-5. Levantar todos los microservicios consumidos
+5. Levantar el servidor de NATS
 
-6. Ejecutar el proyecto
+```bash
+$ docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats
+```
+
+6. Levantar todos los microservicios consumidos
+
+7. Ejecutar el proyecto
 
 ```bash
 $ npm run start:dev
@@ -43,6 +49,7 @@ En este repositorio se trabajan los siguientes aspectos de Nest con microservici
 - Trabajar con observables y promesas en los mensajes
 - Implementando endpoints para Order
 - Validación de orden con su detalle de orden
+- Agregar NATS como canal de comunicación
 
 ## Librerías utilizadas
 
@@ -68,4 +75,10 @@ Para las validaciones se utilizan:
 
 ```bash
 $ npm install class-validator class-transformer
+```
+
+Para utilizar NATS para las comunicaciones del microservicio:
+
+```bash
+$ npm i --save nats
 ```

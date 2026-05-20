@@ -35,5 +35,6 @@ async function bootstrap() {
   logger.log(
     `Orders microservices running on port ${envs.ordersMicroservicePort}`,
   );
+  logger.log(`NATS server running on ${envs.natsServers}`);
 }
 void bootstrap();
