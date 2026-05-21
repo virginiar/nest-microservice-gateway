@@ -23,18 +23,6 @@ async function bootstrap() {
 
   await app.listen(envs.port);
   logger.log(`Gateway running on port ${envs.port}`);
-  logger.log(
-    `Products microservices running on host ${envs.productsMicroserviceHost}`,
-  );
-  logger.log(
-    `Products microservices running on port ${envs.productsMicroservicePort}`,
-  );
-  logger.log(
-    `Orders microservices running on host ${envs.ordersMicroserviceHost}`,
-  );
-  logger.log(
-    `Orders microservices running on port ${envs.ordersMicroservicePort}`,
-  );
   logger.log(`NATS server running on ${envs.natsServers}`);
 }
 void bootstrap();
