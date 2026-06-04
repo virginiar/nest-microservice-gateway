@@ -7,6 +7,10 @@
 Repositorio para el Gateway de la aplicación Products realizada en [Nest](https://github.com/nestjs/nest). 
 Basado en el curso de "NestJs + Microservicios: Aplicaciones escalables y modulares" de [DevTalles](https://cursos.devtalles.com/) en Udemy.
 
+## Lanzar el proyecto completo
+
+Seguir las indicaciones del launcher para lanzar todos los proyectos
+
 ## Configuración del proyecto
 
 1. Instalar NestJS CLI
