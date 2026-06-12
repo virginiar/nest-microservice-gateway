@@ -43,6 +43,14 @@ $ docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats
 $ npm run start:dev
 ```
 
+## Producción
+
+Ejecutar
+
+```bash
+$ docker build -f Dockerfile.prod -t client-gateway .
+```
+
 ## Aspectos estudiados
 
 En este repositorio se trabajan los siguientes aspectos de Nest con microservicios:
